@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(28, 28, 28);
+    color: #f4f4f4;
+    
+}
+
+.Content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    margin-top: 10%;
+}
+
+.Content label {
+    text-shadow: 0px 0px 20px rgb(255, 255, 255);
+    font-size: 60px;
+    margin: 50px;
+}
+
+.Content hr {
+    width: 80%;
+}
+
+.Content button {
+    margin: 55px;
+    width: 300px;
+    height: 60px;
+    background-color: rgb(0, 195, 0);
+    border-radius: 10px;
+    font-weight: bold;
+    color: #f4f4f4;
+    outline-width: 0px;
+    stroke: none;
+    border: none;
+    box-shadow: 0px 0px 10px greenyellow;
+    font-size: 40px;
+
+}
+
+#message {
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
+    font-size: 20px;
+}
+
+#EmptyBox {
+    align-self: center;
+    justify-self: center;
+    margin: 10px auto;
+    font-size: larger;
+    color: red;
+    font-weight: 550;
+    text-shadow: 0px 0px 20px;
+}
+
+#Messages {
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin: 10px;
+    margin-top: 10%;
+}
+
+#image {
+    margin-top: 40px;
+}
