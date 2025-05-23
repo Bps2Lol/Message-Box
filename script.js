@@ -45,6 +45,7 @@ function createMessage(text, imageData) {
         NewImage.src = imageData;
         NewImage.style.width = "100px";
         NewImage.style.height = "100px";
+        NewImage.style.borderRadius = "20px";
         DivCont.appendChild(NewImage);
     }
 
